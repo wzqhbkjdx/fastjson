@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cgtrc.fastjson.MainActivity" >
+
+    <Button  
+        android:id="@+id/person"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:text="解析Person数据" />  
+    <Button  
+        android:id="@+id/persons"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:text="解析Persons数据" />  
+    <Button  
+        android:id="@+id/listString"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:text="解析listString数据" />  
+    <Button  
+        android:id="@+id/listMap"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:text="解析listMap数据" /> 
+
+</LinearLayout>
